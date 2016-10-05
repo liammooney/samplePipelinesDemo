@@ -16,7 +16,7 @@ resources:
 
   - name: ecs-cluster
     type: cluster
-    integration: CrayonAwsAccount
+    integration: CrayonAws
     pointer:
       sourceName : "latest-lifestyle-LifestyleAPIECSCluster-ZIVIVXF31MML" #name of the cluster to which we are deploying
       region: "us-east-1"
