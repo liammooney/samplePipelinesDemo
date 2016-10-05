@@ -12,4 +12,4 @@ jobs:
       - IN: docker-options
       - IN: ecs-cluster
       - TASK: managed
-        deployMethod: upgrade
+#        deployMethod: upgrade
