@@ -1,12 +1,12 @@
 resources:
   - name: pipelines-demo-image
     type: image
-    integration: shipdeploy
+    integration: LiamsDockerHub
     pointer:
-      sourceName: "shippablesamples/samplepipelinesdemo"
+      sourceName: "liammooney/samplepipelinesdemo"
       isPull: false
     seed:
-      versionName: "latest"
+      versionName: "master.6"
 
   - name: docker-options
     type: dockerOptions
@@ -16,7 +16,7 @@ resources:
 
   - name: ecs-cluster
     type: cluster
-    integration: aws
+    integration: CrayonAwsAccount
     pointer:
-      sourceName : "my-cluster" #name of the cluster to which we are deploying
-      region: "us-west-2"
+      sourceName : "latest-lifestyle-LifestyleAPIECSCluster-ZIVIVXF31MML" #name of the cluster to which we are deploying
+      region: "us-east-1"
