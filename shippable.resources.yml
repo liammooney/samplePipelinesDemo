@@ -21,7 +21,7 @@ resources:
       sourceName : "latest-lifestyle-LifestyleAPIECSCluster-ZIVIVXF31MML" #name of the cluster to which we are deploying
       region: "us-east-1"
       
-    - name: dv-ver
+  - name: dv-ver
     type: version
     seed:
       versionName: "1.0.0"
